@@ -1,16 +1,16 @@
-# 🐔 Farm Counting Fiesta
+# Farm Counting Fiesta
 
 > A retro DOS educational counting game written in 16-bit x86 assembly (NASM `.COM` format), featuring VGA Mode 13h graphics, Sound Blaster audio, and a full farm-themed UI.
 
 ---
 
-## 🎬 Video Demo
+## Video Demo
 
 ▶️ [Watch the gameplay presentation on Google Drive](https://drive.google.com/file/d/1jbEilJAb6fsJyAIocwscLyDdQGhmyS8f/view?usp=sharing)
 
 ---
 
-## 📖 About
+## About
 
 **Farm Counting Fiesta** is a colorful farm-themed counting game for DOS. Players count animals displayed on screen and type in their answer before the opponent does. It supports both single-player and two-player duel modes, a high score leaderboard, and a user account system — all rendered in VGA 320×200 at 256 colors.
 
@@ -18,7 +18,7 @@ This project is written entirely in **NASM x86 16-bit assembly** and compiles to
 
 ---
 
-## ✨ Features
+## Features
 
 - 🐄 **Three animal types** — Chickens, Cows, and Pigs, drawn with custom pixel-art sprites
 - 🕹️ **Two game modes**
@@ -34,7 +34,7 @@ This project is written entirely in **NASM x86 16-bit assembly** and compiles to
 
 ---
 
-## 🎮 How to Play
+## How to Play
 
 1. From the title screen, press **Enter** to start or **H** to view the tutorial.
 2. Select **Single Player** or **Farm Duel**.
@@ -56,7 +56,7 @@ This project is written entirely in **NASM x86 16-bit assembly** and compiles to
 
 ---
 
-## 🛠️ Building
+## Building
 
 ### Requirements
 
@@ -80,7 +80,7 @@ Or place `FARM.COM` in a DOSBox-mounted directory and run it from the DOS prompt
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 FARM-14.asm          ← Full source (single-file, ~6300 lines)
@@ -94,7 +94,7 @@ All data files are created automatically on first run.
 
 ---
 
-## 🧱 Technical Details
+## Technical Details
 
 | Property | Value |
 |----------|-------|
@@ -118,7 +118,7 @@ All data files are created automatically on first run.
 
 ---
 
-## 📜 Game States
+## Game States
 
 | State | Description |
 |-------|-------------|
@@ -135,17 +135,6 @@ All data files are created automatically on first run.
 | `ST_GAMEOVER` | Game over screen |
 | `ST_HISCORES` | Leaderboard display |
 | `ST_LOGIN` / `ST_REGISTER` | Account authentication |
-
----
-
-## 🐛 Known Limitations
-
-- Sound Blaster detection is basic; if no SB is found, the game falls back to the PC speaker
-- Save files use fixed-size binary slots (no encryption on passwords)
-- Maximum 16 registered accounts
-- Name and password fields are limited to 15 characters
-
----
 
 ## 📄 License
 
