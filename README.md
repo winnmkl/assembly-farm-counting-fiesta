@@ -12,7 +12,7 @@
 
 ## About
 
-**Farm Counting Fiesta** is a colorful farm-themed counting game for DOS. Players count animals displayed on screen and type in their answer before the opponent does. It supports both single-player and two-player duel modes, a high score leaderboard, and a user account system — all rendered in VGA 320×200 at 256 colors.
+**Farm Counting Fiesta** is a colorful farm-themed counting game for DOS. Players count animals displayed on screen and type in their answer before the opponent does. It supports both single-player and two-player duel modes, a high score leaderboard, and a user account system which are all rendered in VGA 320×200 at 256 colors.
 
 This project is written entirely in **NASM x86 16-bit assembly** and compiles to a `.COM` executable that runs natively on DOS or a DOS emulator (e.g. DOSBox).
 
